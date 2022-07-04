@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  background: rgba(19, 18, 18, 0.966);
+  min-height: 15vh;
+  max-height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#buton {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 14px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: white solid 1px;
+  border-radius: 25px;
+}
+#logo {
+  padding: 10px;
+  margin: 50px;
+}
+#buton:hover,
+#buton2:hover {
+  background: white;
+  transition: 0.4s;
+  color: black;
+}
+.continut {
+  padding: 10px;
+  margin: 10px;
+}
+.obiective {
+  display: flex;
+  justify-content: center;
+}
+.arc {
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(19, 18, 18, 0.966);
+  color: whitesmoke;
+  text-align: center;
+}
+#titlu1 {
+  text-align: center;
+}
+.palat {
+  padding: 20px;
+  margin: 20px;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(19, 18, 18, 0.966);
+  text-align: center;
+}
+#titlu2 {
+  text-align: center;
+}
+#buton2 {
+  text-decoration: none;
+  font-size: 0.5rem;
+  padding: 10px;
+  margin: 7px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: white solid 1px;
+  border-radius: 25px;
+}
+#p1,
+#p2 {
+  text-align: left;
+}
+.obiective2 {
+  display: flex;
+  justify-content: center;
+}
+#copy {
+  text-align: right;
+  color: whitesmoke;
+}
+
+#top {
+  color: rgb(48, 48, 48);
+  text-decoration: underline;
+}
+#imagine {
+  margin: 10px;
+}
+.lista {
+  padding: 10px;
+  margin-left: 30px;
+}
+.ul1 {
+  text-decoration: none;
+  color: rgb(14, 14, 14);
+  font-size: large;
+}
+.ul1:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
